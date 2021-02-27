@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0bcd4022f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="body-flex-wrapper">
+      <header>
+        <div id="header-flex-wrapper">
+          <h2>FILMic</h2>
+          <ul id="menu">
+            <li class="menu-item"><a href="#">HOME</a></li>
+            <li class="menu-item"><a href="#">FILM</a></li>
+            <li class="menu-item"><a href="#">SHOP</a></li>
+            <li class="menu-item"><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div id="main-flex-wrapper" class="visible">
+
+
+        <div id="photo-wrapper"><img src="" alt="" id="photo" class="animate"></div>
+        <div id='info'>
+          <p id="description"></p>
+          <p id="gear"></p>
+        </div>
+
+
+          <div id="arrow-container">
+            <button class="arrow" id="left">&larr;</button>
+            <button data-index="0"class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="1" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="2" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="3" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="4" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="5" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="6" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="7" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="8" class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="9"class="dots"><span class="dotspan">&#9675;</span></button>
+            <button data-index="10"class="dots"><span class="dotspan">&#9675;</span></button>
+            <button class="arrow" id="right">&rarr;</button>
+          </div>
+
+          <ul id="film-list">
+            <li>
+              <h5>FILM:</h5>
+              <p>Ilford HP5 400</p>
+            </li>
+            <li>
+              <h5>SPEED:</h5>
+              <p>1600</p>
+            </li>
+            <li>
+              <h5>DEV:</h5>
+              <p>Kodak HC110</p>
+            </li>
+            <li>
+              <h5>PROCESS:</h5>
+              <p>Recipe B</p>
+            </li>
+          </ul>
+
+        </div>
+      </main>
+
+      <footer>
+        <div id="footer-flex-wrapper" class="visible">
+          <p>some footer stuff</p>
+          <p>contact</p>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

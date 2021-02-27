@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+html {
+  background-color: rgb(158, 172, 183);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 2rem;
+}
+h5 {
+  font-weight: bold;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+p {
+  font-size: 1rem;
+  padding: 0px 5px;
+  margin: 0px 0px;
+}
+a:visited {
+  color: black;
+}
+#body-flex-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#header-flex-wrapper {
+  padding: 0px 12.5px;
+  background-color: white;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+#menu {
+  display: flex;
+  margin-left: 40px;
+}
+#menu li a{
+  font-size: 1rem;
+  padding: 0px 5px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 12.5px 0px;
+}
+#main-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0, auto;
+  min-height: 360px;
+  min-width: 360px;
+  background-color: white;
+  flex-grow: 1;
+}
+#film-list {
+  padding: 0px 25px 20px 25px;
+  align-self: center;
+}
+#film-list li {
+  display: flex;
+  align-items: center;
+}
+
+#film-list p {
+  font-size: 1.3rem;
+}
+#photo-wrapper {
+  min-height: 325px;
+  min-width: 325px;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+#photo-wrapper img {
+  min-height: 325px;
+  min-width: 325px;
+  max-width: 500px;
+  max-height: 500px;
+  flex-grow: 1;
+}
+#main-flex-wrapper p{
+  align-self: center;
+}
+#info {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 20px 0px;
+}
+#arrow-container button {
+  border-style: none;
+  background-color: white;
+  padding: 3px 5px;
+  font-size: 1.8rem;
+  outline: 0;
+  max-height: 25px;
+  display: flex;
+  align-items: center;
+}
+#arrow-container button:hover {
+  transform: scale(1.2);
+}
+.arrow {
+  font-size: 2rem;
+}
+#footer-flex-wrapper {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#footer-flex-wrapper p {
+  font-size: 1rem;
+}
+
+footer p {
+  margin: 10px 3px;
+}
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+.animate {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@media (min-width: 768px) { 
+
+  * {
+    font-size: 18px;
+  }
+  html {
+    background-color: rgb(123, 172, 209);
+  }
+
+  #arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+  }
+  #arrow-container button {
+    border-style: none;
+    background-color: white;
+    padding: 3px 5px;
+    font-size: 3rem;
+    outline: 0;
+    max-height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+}
